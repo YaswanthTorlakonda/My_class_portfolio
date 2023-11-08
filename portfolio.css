@@ -1,0 +1,99 @@
+:root{
+    --color:blue;
+    --pink:magenta;
+    --oxygen:'oxygen Mono', monospace;
+
+}
+#intro span{
+    color: rgb(6, 247, 26);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 2rem;
+}
+body{
+    background-color: rgb(101, 7, 145);
+}
+#intro a{
+    color:magenta;
+    font-style: bold;
+}
+#intro a:hover{
+    text-decoration: none;
+    color:rgba(235, 9 , 9);
+}
+#details a{
+    color:  rgb(22, 22, 223);
+    font-size: larger;
+}
+#details p a:hover{
+    color: rgb(247, 7, 7);
+}
+nav li a:hover{
+    color: white;
+    text-decoration: none;
+}
+nav{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    gap: 2rem;
+}
+nav li:first-child{
+    text-align: center;
+    flex-basis: 100%;
+}
+nav a{
+    
+    color:wheat;
+    font-size: larger;
+
+}
+nav h1 a{
+    color:white;
+    text-decoration: none;
+}
+#intro {
+    text-align: center;
+    font-size: larger;
+}
+#details{
+    text-align: center;
+    font-size: larger;
+}
+.button{
+    background-color: magenta;
+    color: rgb(8, 8, 8);
+    padding: 0.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+}
+footer ul{
+    list-style-type: none;
+    color: darkorange;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-weight: 800;
+    gap: 3rem;
+    margin: 2rem 0;
+    padding: 0;
+    
+}

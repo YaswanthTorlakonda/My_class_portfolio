@@ -1,0 +1,22 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    border: 15px solid #ffffff;
+    padding: 100px;
+    border-radius: 10px;
+    background-color: rgb(197, 106, 197);
+    width: 500px;
+    margin-left: 250px;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+div{
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}

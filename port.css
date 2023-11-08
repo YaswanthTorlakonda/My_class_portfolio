@@ -1,0 +1,73 @@
+
+:root{
+    --black: #171321;
+    --magenta: #e310cb;
+    --poppins: 'Poppins', sans-serif;
+    --oxygen: 'Oxygen Mono', monospace;
+    --rakesh: #4b0d49;
+}
+
+body{
+    font-family: var(--poppins);
+    background-color: var(--black);
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+}
+a{
+    color: var(--magenta);
+}
+
+#intro p{
+    font-size: 1rem;  
+    line-height: 2;
+}
+.name span{
+    color: #86fbfb;
+    font-size: 4rem;
+    display: block;
+    font-weight: 900;
+}
+a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+#intro h2{
+    font-size: 2.5rem;
+}
+#contact{
+    font-family: var(--oxygen);
+    background-color: var(--rakesh);
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem;
+}
+nav{
+    font-size: 80%;
+    padding: 1rem;
+}
+nav ul{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+nav li:first-child{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+nav a:hover{
+    color: var(--magenta);
+} 

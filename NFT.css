@@ -1,0 +1,14 @@
+.parent{
+    background-color:rgb(32, 8, 53);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgb(32, 8, 53);
+    border: 15px solid #122099;
+    padding: 50px;
+    border-radius: 5px;
+    width: 400px;
+    margin-left: 400px;
+}
